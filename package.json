@@ -1,0 +1,37 @@
+{
+  "name": "speedtest-cli",
+  "version": "1.0.0",
+  "description": "Measure download speed by fetching a URL several times sequentially",
+  "keywords": [
+    "speedtest",
+    "download",
+    "bandwidth",
+    "cli",
+    "http"
+  ],
+  "author": "Ars (https://github.com/ArsLs)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsLs/speedtest-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArsLs/speedtest-cli/issues"
+  },
+  "homepage": "https://github.com/ArsLs/speedtest-cli#readme",
+  "type": "module",
+  "bin": {
+    "speedtest": "./cli.js"
+  },
+  "files": [
+    "cli.js",
+    "speedtest.js"
+  ],
+  "scripts": {
+    "start": "node cli.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.11"
+  }
+}
